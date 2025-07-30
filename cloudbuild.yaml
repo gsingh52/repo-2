@@ -3,7 +3,7 @@ steps:
   args: ['app', 'deploy', '--quiet', '--verbosity=debug']
 
 options:
-  logging: LEGACY
+  logging: CLOUD_LOGGING_ONLY
 
 timeout: "1600s"
 
